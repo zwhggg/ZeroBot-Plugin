@@ -60,11 +60,11 @@ import (
 	//                          vvvvvvvvvvvvvv                          //
 	//                               vvvv                               //
 
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai"            // ahsai tts
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aifalse"          // 服务器监控
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aipaint"          // ai绘图
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aiwife"           // 随机老婆
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/alipayvoice"      // 支付宝到账语音
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai"   // ahsai tts
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aifalse" // 服务器监控
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aipaint" // ai绘图
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aiwife"  // 随机老婆
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/alipayvoice"      // 支付宝到账语音
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/autowithdraw"     // 触发者撤回时也自动撤回
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baidu"            // 百度一下
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baiduaudit"       // 百度内容审核
@@ -258,7 +258,7 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	 sus = append(sus, 1779647429)
+	sus = append(sus, 1779647429)
 	// sus = append(sus, 87654321)
 
 	// 启用 webui
